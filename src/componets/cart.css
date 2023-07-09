@@ -1,0 +1,37 @@
+.cart {
+    background-color: gray;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cart-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 90%;
+}
+
+
+.cart-item-img>img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.total-amount {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
